@@ -168,13 +168,13 @@ I displayed the confusion matrix for the classifier, which is a useful tool for 
 
 ```python
 ConfusionMatrixDisplay.from_estimator(clf_xgb, X_test, y_test, display_labels=["Did not leave", "Left"])
-```
+
 					Predicted Values
 	
 				Did_not_leave		Left
 Actual Value	Did_not_leave	1179			115
 		Left		241			226
-
+```
 the accuracy of the confusion matrix is 0.798 .
 
 ### Hyperparameter Tuning
@@ -259,13 +259,13 @@ I displayed the confusion matrix for the final model to understand how well it w
 
 ```python
 ConfusionMatrixDisplay.from_estimator(clf_xgb, X_test, y_test, display_labels=["Did not leave", "Left"])
-```
+
 					Predicted Values
 	
 				Did_not_leave		Left
 Actual Value	Did_not_leave	934			360
 		Left		78			389
-
+```
 the accuracy of the confusion matrix is 0.751 .
 
 ### Feature Importance
